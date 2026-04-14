@@ -29,7 +29,7 @@ let package = Package(
   dependencies: [
     .package(
       url: "https://github.com/alphane-ai/promises.git",
-      "2.4.0" ..< "3.0.0"
+      branch: "master"
     ),
     .package(
       url: "https://github.com/google/GoogleUtilities.git",
